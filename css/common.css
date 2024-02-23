@@ -1,0 +1,178 @@
+:root{
+  --teal: #2ec1ac;
+  --teal_hover: #279e8c;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.h-font {
+  font-family: 'Crimson Text';
+  background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+  font-size: 46px;
+  font-weight: bold;
+}
+.log-button {
+  padding: 10px 15px;
+  background: none;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.carousel.swiper-container {
+  margin: 0px;
+  position: relative; /* Set position to relative for overlay positioning */
+}
+.carousel .swiper-slide {
+  position: relative; /* Set position to relative for overlay positioning */
+  overflow: hidden; /* Hide any content overflowing from the slide */
+}
+.carousel .swiper-slide img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover; /* Maintain aspect ratio without stretching */
+  border-radius: 50px;
+}
+.carousel .carousel-overlay {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translateY(-50%);
+  max-width: 500px;
+  height: 100%;
+  padding: 20px;
+  color: #fff; /* Set the text color */
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+  align-items: flex-end; /* Adjust alignment as needed */
+}
+.carousel .carousel-overlay p {
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word
+}
+.carousel .swiper-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 50px;
+}
+.custom-bg {
+  position: relative;
+  color: white;
+  background: rgba(78, 78, 78, 0.3);
+  padding: 10px;
+}
+
+.custom-bg input,
+.custom-bg textarea,
+.custom-bg form-control{
+  background: transparent !important;
+  outline: none;
+  color: white;
+  border-color: white;
+}
+
+.custom-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  backdrop-filter: blur(10px);
+  z-index: -1;
+
+}
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #23232329;}
+.custom-btn{
+  border: 1px #87CEFA;
+  height: 100%;
+}
+.custom-btn:hover{
+  background-color: #1E90FF;
+  border-color: #1E90FF;
+}
+
+.h-line{
+  width: 200px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: white;
+}
+
+.custom-alert{
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  z-index: 1111;
+}
+.desc{
+  color: #555555;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  word-wrap: break-word
+}
+.stitle{
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 45px;
+}
+.descbox1{
+  height: 90%;
+  width: 700px;
+  border: 3px double;
+  border-color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+
+}
+.descbox2{
+  height: 90%;
+  width: 700px;
+  background-color: transparent;
+  border: 3px double;
+  border-color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.form{
+  width: 1200px;
+  height: 150px
+}
+.booking{
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .8);
+}
