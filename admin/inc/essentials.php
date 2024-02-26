@@ -2,7 +2,7 @@
 
   //frontend purpose data
 
-  define('SITE_URL','http://127.0.0.1/csweb/');
+  define('SITE_URL','http://127.0.0.1/dentofarm/');
   define('ABOUT_IMG_PATH',SITE_URL.'images/about/');
   define('CAROUSEL_IMG_PATH',SITE_URL.'images/carousel/');
   define('FACILITIES_IMG_PATH',SITE_URL.'images/facilities/');
@@ -14,7 +14,7 @@
 
   //backend upload process needs this data
 
-  define('UPLOAD_IMAGE_PATH',$_SERVER['DOCUMENT_ROOT'].'/csweb/images/');
+  define('UPLOAD_IMAGE_PATH',$_SERVER['DOCUMENT_ROOT'].'/dentofarm/images/');
   define('ABOUT_FOLDER','about/');
   define('CAROUSEL_FOLDER','carousel/');
   define('FACILITIES_FOLDER','facilities/');
