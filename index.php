@@ -268,10 +268,10 @@ while ($room_data = mysqli_fetch_assoc($room_res)) {
 echo <<<data
     <div class="box">
       <div class="img">
-        <a href="../csweb/room_details.php?id=$room_data[id]"><img src="$room_thumb" style='max-height: 38vh;'></a>
+        <a href="../dentofarm/room_details.php?id=$room_data[id]"><img src="$room_thumb" style='max-height: 38vh;'></a>
       </div>
       <div class="text">
-        <a href="../csweb/room_details.php?id=$room_data[id]"><h3>$room_data[name]</h3></a>
+        <a href="../dentofarm/room_details.php?id=$room_data[id]"><h3>$room_data[name]</h3></a>
         <p> <span>₱</span>$room_data[price]<span>/per night</span> </p>
       </div>
     </div>

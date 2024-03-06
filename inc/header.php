@@ -88,7 +88,7 @@
 
 <div class="modal fade" id="registerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content">
+    <div class="modal-content custom-bg">
       <form id="register-form">
         <div class="modal-header">
           <h5 class="modal-title d-flex align-items-center">
@@ -148,7 +148,7 @@
 
 <div class="modal fade" id="forgotModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content custom-bg">
       <form id="forgot-form">
         <div class="modal-header">
           <h5 class="modal-title d-flex align-items-center">
